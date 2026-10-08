@@ -1,11 +1,47 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My First Website</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111827;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      text-align: center;
+      padding: 30px;
+    }
+    h1 { font-size: 48px; }
+    p { color: #d1d5db; }
+    button {
+      background: #2563eb;
+      color: white;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1d4ed8;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>This is my first GitHub website.</p>
-    <p>I am learning how to code!</p>
+  <div class="container">
+    <h1>Hello, World! 🚀</h1>
+    <p>Welcome to my first modern website.</p>
+    <button onclick="alert('My first button works!')">
+      Get Started
+    </button>
+  </div>
 </body>
 </html>
